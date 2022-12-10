@@ -98,8 +98,7 @@
 				22A8AB672943349F00BC8E15 /* Services */,
 				22A8AB5A294330D300BC8E15 /* Utilities */,
 				22A8AB59294330CA00BC8E15 /* UIComponenet */,
-				22A8AB582943308900BC8E15 /* UI */,
-				22A8AB572943307400BC8E15 /* Data */,
+				22A8AB582943308900BC8E15 /* Features */,
 				22A8AB4829432FFE00BC8E15 /* RealstateAppApp.swift */,
 				22A8AB4C29432FFE00BC8E15 /* Assets.xcassets */,
 				22A8AB4E29432FFE00BC8E15 /* RealstateApp.entitlements */,
@@ -117,28 +116,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		22A8AB572943307400BC8E15 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				22A8AB64294333D900BC8E15 /* Model */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		22A8AB582943308900BC8E15 /* UI */ = {
+		22A8AB582943308900BC8E15 /* Features */ = {
 			isa = PBXGroup;
 			children = (
 				223FE11829449E2500569A0C /* Info */,
-				22A8AB822943DE6F00BC8E15 /* Map */,
 				22A8AB5B294330DD00BC8E15 /* Home */,
 				22A8AB7A29438B0900BC8E15 /* ContentView.swift */,
 			);
-			path = UI;
+			path = Features;
 			sourceTree = "<group>";
 		};
 		22A8AB59294330CA00BC8E15 /* UIComponenet */ = {
 			isa = PBXGroup;
 			children = (
+				22A8AB832943DE7900BC8E15 /* MapView.swift */,
 				22A8AB6A294338F000BC8E15 /* CardView.swift */,
 				22A8AB742943646200BC8E15 /* IconCardView.swift */,
 				22A8AB76294372B400BC8E15 /* URLImageView.swift */,
@@ -160,6 +151,7 @@
 		22A8AB5B294330DD00BC8E15 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				22A8AB65294333E800BC8E15 /* House.swift */,
 				22A8AB4A29432FFE00BC8E15 /* HomeView.swift */,
 				22A8AB5C294330F000BC8E15 /* HomeViewModel.swift */,
 				22A8AB7C2943902F00BC8E15 /* HomeDetailSheet.swift */,
@@ -170,19 +162,11 @@
 		22A8AB5E294330FF00BC8E15 /* Observable */ = {
 			isa = PBXGroup;
 			children = (
+				22A8AB722943416100BC8E15 /* ResultMessage.swift */,
 				22A8AB6E2943410E00BC8E15 /* Subject.swift */,
 				22A8AB702943412F00BC8E15 /* Observer.swift */,
 			);
 			path = Observable;
-			sourceTree = "<group>";
-		};
-		22A8AB64294333D900BC8E15 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				22A8AB65294333E800BC8E15 /* House.swift */,
-				22A8AB722943416100BC8E15 /* ResultMessage.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		22A8AB672943349F00BC8E15 /* Services */ = {
@@ -192,14 +176,6 @@
 				22A8AB6C29433BF700BC8E15 /* Client.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		22A8AB822943DE6F00BC8E15 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				22A8AB832943DE7900BC8E15 /* MapView.swift */,
-			);
-			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
